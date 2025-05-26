@@ -16,7 +16,7 @@ const projects = [
 
 export default function Projects() {
   return (
-    <section id="projects" className="min-h-screen pt-32 pb-20 px-4 scroll-mt-24">
+    <section id="projects" className="min-h-screen pt-32 pb-20 px-4">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
           <h1 className="text-4xl font-bold text-center mb-4">My Projects</h1>
