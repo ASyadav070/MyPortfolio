@@ -33,8 +33,8 @@ export default function Home() {
     return () => clearTimeout(timer);
   }, [text, isDeleting, loopNum, texts, typingSpeed]);
   return (
-    <div className="w-full">
-      <div className="flex flex-col-reverse lg:flex-row items-center justify-between w-full">
+    <div className="w-full pt-16 md:pt-24">
+      <div className="flex flex-col-reverse lg:flex-row items-center justify-between w-full gap-8 md:gap-0">
         {/* Left Column - Text Content */}
         <motion.div 
           className="w-full lg:w-1/2"
@@ -83,7 +83,7 @@ export default function Home() {
           }}
         >
           <div className="flex justify-center lg:justify-end w-full">
-            <div className="w-72 h-72 md:w-96 md:h-96 rounded-full bg-gradient-to-br from-indigo-600 to-purple-600 p-1">
+            <div className="w-56 h-56 sm:w-72 sm:h-72 md:w-96 md:h-96 rounded-full bg-gradient-to-br from-indigo-600 to-purple-600 p-1">
               <div className="w-full h-full rounded-full bg-gray-800 overflow-hidden border-4 border-gray-800">
                 <img 
                   src="/myphoto.jpg" 
