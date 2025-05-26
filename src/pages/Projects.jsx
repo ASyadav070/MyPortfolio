@@ -35,13 +35,14 @@ export default function Projects() {
                 scale: 1.03
               }}
               whileTap={{ scale: 0.98 }}
-              className="bg-[#2a1140]/80 rounded-xl overflow-hidden shadow-2xl shadow-indigo-500/10 hover:shadow-3xl hover:shadow-indigo-500/20 transition-transform duration-300 ease-in-out"
+              className="flex flex-col bg-[#2a1140]/80 rounded-xl overflow-hidden shadow-2xl shadow-indigo-500/10 hover:shadow-3xl hover:shadow-indigo-500/20 transition-all duration-300 ease-in-out h-full"
             >
-              <div className="h-56 overflow-hidden">
+              <div className="w-full aspect-video bg-gray-900 flex items-center justify-center p-4">
                 <img
                   src={project.image}
                   alt={project.title}
-                  className="w-full h-full object-contain bg-gray-900 p-2"
+                  className="max-w-full max-h-full object-contain"
+                  style={{ maxHeight: '200px' }}
                 />
               </div>
               <div className="p-6">
