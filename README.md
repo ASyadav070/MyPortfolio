@@ -53,34 +53,3 @@ Welcome to my professional portfolio website! This single-page application showc
    ```
 
 4. Open [http://localhost:5173](http://localhost:5173) to view it in your browser.
-
-## 🏗️ Building for Production
-
-To create a production build:
-
-```bash
-npm run build
-# or
-yarn build
-```
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 🤝 Contributing
-
-Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](../../issues) if you want to contribute.
-
-## 📬 Contact
-
-- GitHub: [@GodEye119](https://github.com/GodEye119)
-- LinkedIn: [Your LinkedIn Profile](https://linkedin.com/in/yourusername)
-- Email: your.email@example.com
-
-## 🙏 Acknowledgments
-
-- [Vite](https://vitejs.dev/) for the amazing build tool
-- [Tailwind CSS](https://tailwindcss.com/) for the utility-first CSS framework
-- [Framer Motion](https://www.framer.com/motion/) for smooth animations
-- All the open-source libraries and tools that made this project possible
