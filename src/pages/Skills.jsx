@@ -61,7 +61,7 @@ export default function Skills() {
     <section className="min-h-screen w-full flex items-center justify-center py-20">
       <div className="w-full max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-4">My Skills</h1>
+          <h1 className="text-4xl font-bold text-center mb-4">My Skills</h1>
           <div className="w-24 h-1.5 bg-gradient-to-r from-indigo-500 to-purple-500 mx-auto rounded-full mb-6"></div>
           <p className="text-gray-300 text-base md:text-lg lg:text-xl leading-relaxed mt-6 max-w-3xl mx-auto">
             Here are the technologies and tools I work with. I'm always learning and expanding my skill set.

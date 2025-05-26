@@ -81,9 +81,9 @@ export default function Contact() {
     <div className="w-full flex-1 flex items-center">
       <div className="w-full max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="text-center mb-16">
-          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-4">Get In Touch</h1>
+          <h1 className="text-4xl font-bold text-center mb-4">Get In Touch</h1>
           <div className="w-24 h-1.5 bg-gradient-to-r from-indigo-500 to-purple-500 mx-auto rounded-full mb-6"></div>
-          <p className="text-xl text-gray-400 max-w-2xl mx-auto">
+          <p className="text-gray-300 text-base md:text-lg lg:text-xl leading-relaxed mt-6 max-w-3xl mx-auto">
             Have a project in mind or want to chat? Feel free to reach out!
           </p>
         </div>
